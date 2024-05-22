@@ -38,7 +38,7 @@ Dr. Love is a fun DIY project that comes with build guides, perfect for those wh
 
 If you'd like to get your hands on a Dr. Love, you can find the DIY kit at my online shop or you can source materials own your own. And if you'd rather skip the assembly and get straight to the fun, you can also order a pre-assembled device. Following link below. Happy building!
 
-[Dr. Love Online Shop](https://www.tindie.com/stores/unkyulee/)
+[Dr. Love Online Shop](https://www.tindie.com/products/34718/)
 
 ## Step 1. What to prepare
 
@@ -207,4 +207,4 @@ Creating Dr. Love brought immense joy, and witnessing the enjoyment it brought t
 
 You can purchase Dr. Love DIY kits, containing 3D prints, components, and materials for assembly, from the following link. Assembled units are also available for those who prefer a ready-to-use device.
 
-[Dr. Love Online Shop](https://www.tindie.com/stores/unkyulee/)
+[Dr. Love Online Shop](https://www.tindie.com/products/34718/)
