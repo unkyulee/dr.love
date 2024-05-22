@@ -12,7 +12,7 @@ _config = {
     },
     'DISPLAY': {
         'screen': 1,
-        'brightness': 0.3
+        'brightness': 1
     },
     'LOVER': {
         "A": {

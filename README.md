@@ -2,6 +2,7 @@
 
 Dr. Love: is the ultimate gadget to test if your partner is in love with you or just kind of meh. Simply place your fingers on Dr. Love, and it will reveal if neither of you, both of you, or just one of you is in love. Thankfully, it won't spill the beans on which one of you is the lovesick puppy.
 
+![Love](./images/007.jpg)
 
 
 # Usecases
@@ -9,6 +10,7 @@ Dr. Love: is the ultimate gadget to test if your partner is in love with you or 
 Dr. Love is a tiny, business card-sized device that packs a big punch. It's perfect for sparking curiosity and getting people talking. Everyone wants to try it out or at least ask, "What's that?"
 
 Here's how it works: two people hold the metal parts for about 10-15 seconds while Dr. Love works its magic. The results are unpredictable, making for a fun and engaging ice-breaker. Explaining how it works can lead to some interesting conversations and keep potential customers intrigued while they wait.
+
 
 Dr. Love is definitely an attention-grabber and a great way to break the ice. It's not something you'd hand out like a regular business card, but it makes a fantastic gift for those special connections.
 
@@ -181,6 +183,8 @@ By following these steps, you'll successfully install the necessary firmware and
 
 
 # Conclusion
+
+![Love](./images/006.jpg)
 
 This project stemmed from the Hackaday business card challenge, sparking numerous brainstorming sessions with my wife to create something captivating and memorable, akin to the essence of a business card.
 

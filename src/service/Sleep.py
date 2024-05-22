@@ -14,6 +14,8 @@ class Sleep:
     def setup(self):        
         # after 1 minute of inactivity goes into sleep mode
         self.timer_end = time.monotonic() + 60
+        #
+        self.brightness = context.get()['DISPLAY']['brightness']
     #
     def loop(self): 
         #
@@ -27,4 +29,4 @@ class Sleep:
         if self.timer_end < time.monotonic():
             status['DISPLAY']['brightness'] = 0.0
         else:
-            status['DISPLAY']['brightness'] = 0.3
+            status['DISPLAY']['brightness'] = self.brightness
