@@ -33,7 +33,9 @@ But here's the kicker—if you're in a seasoned relationship, you might be cool 
 
 Dr. Love is a fun DIY project that comes with build guides, perfect for those who enjoy a bit of hands-on tinkering. Just a heads-up: some soldering is required, and incorrect wiring could potentially cause a hazardous fire. But hey, who doesn't want a little adventure in their DIY projects?
 
-If you'd like to get your hands on a Dr. Love, you can find the DIY kit at my online shop or you can source materials own your own. And if you'd rather skip the assembly and get straight to the fun, you can also order a pre-assembled device. The link is at the end of this document. Happy building!
+If you'd like to get your hands on a Dr. Love, you can find the DIY kit at my online shop or you can source materials own your own. And if you'd rather skip the assembly and get straight to the fun, you can also order a pre-assembled device. Following link below. Happy building!
+
+[Dr. Love Online Shop](https://www.tindie.com/stores/unkyulee/)
 
 ## Step 1. What to prepare
 
