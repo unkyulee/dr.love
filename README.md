@@ -61,7 +61,6 @@ Here's a detailed look at the components you'll need for your Dr. Love DIY proje
    - **Machine Screws and Nuts**: M2.5 screws and nuts for securing components.
    - **3d prints or Enclosure**: STL for 3d printed parts are in this repository
 
-These components are essential for building your Dr. Love device. You can find most of these items online or at your local electronics store. Happy building!
 
 ## Step 2. Solder Nickel Plates with Wires
 
@@ -81,7 +80,6 @@ These components are essential for building your Dr. Love device. You can find m
 
 ### Tips
 
-- Make sure the soldering iron is hot enough to melt the solder quickly but be careful not to overheat and damage the components.
 - Ensure a solid connection by applying enough solder to cover the wire and nickel plate junction.
 - Allow the solder to cool and solidify before moving on to the next step.
 - Apply soldering paste before soldering, it make it much easier for the soler to adhere.
@@ -175,15 +173,14 @@ Follow these steps to assemble your Dr. Love device:
 
 - Connect the RP2040 board to your PC via USB while pressing down the boot button.
 - The board will appear as a storage device on your computer.
-- Copy the CircuitPython boot loader file into the storage.
-- Once the file is copied, the RP2040 board will reboot, completing the CircuitPython installation.
+- Copy the CircuitPython boot loader file into the storage. You can find the file in the "circuitpyhon" folder in this repository
+- Once the file is copied, the RP2040 board will automatically reboot, completing the CircuitPython installation.
 
 ### 2. Install Firmware
 
+- Connect the RP2040 board to your PC via USB (without pressing down any buttons).
 - Copy all the files from the "src" folder of this repository to the RP2040 board using your PC connected via USB.
 - Once the files are copied, the RP2040 will boot into the application that functions as Dr. Love.
-
-By following these steps, you'll successfully install the necessary firmware and files onto your RP2040 board, allowing it to function as the Dr. Love device.
 
 
 # Conclusion
