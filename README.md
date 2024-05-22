@@ -24,6 +24,8 @@ Now, think about when you're nervous—like when you're trying to figure out if 
 
 Dr. Love measures this change in sweat using GSR. It has sensors that you place on your fingers or hand, which detect the slight increase in sweat and, therefore, the change in electrical conductivity of your skin. Dr. Love uses this GSR data to guess if someone is in love. If it detects a spike in sweating when you're near someone you love, it suggests that there might be some serious feelings involved.
 
+This is technology used in lie detectors. You know, one of the quirks of lie detectors is their tendency to falter when someone's feeling a bit jittery or excited. But hey, I'm flipping that defect on its head and turning it into a plus. Why not? Think about it: when you're face-to-face with someone you adore, those heart-fluttering moments can easily send your nerves into overdrive. And guess what? That's exactly what I'm banking on with Dr. Love! We're taking those moments of excitement and turning them into a little game of love detection. It's like taking a glitch and turning it into a feature! 
+
 But here's the kicker—if you're in a seasoned relationship, you might be cool as a cucumber and not sweat at all. That's why Dr. Love thoughtfully includes the phone number of a divorce lawyer on the cover, just in case!
 
 
