@@ -1,4 +1,4 @@
-# Dr. Love: Measures your love
+# Dr. Love: a Game of Love Detection 
 
 Dr. Love: is the ultimate gadget to test if your partner is in love with you or just kind of meh. Simply place your fingers on Dr. Love, and it will reveal if neither of you, both of you, or just one of you is in love. Thankfully, it won't spill the beans on which one of you is the lovesick puppy.
 
