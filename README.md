@@ -7,13 +7,13 @@ Dr. Love: is the ultimate gadget to test if your partner is in love with you or 
 
 # Usecases
 
-Dr. Love is a tiny, business card-sized device that packs a big punch. It's perfect for sparking curiosity and getting people talking. Everyone wants to try it out or at least ask, "What's that?"
+Dr. Love is a charming, business-card-sized device that promises to decode the mysteries of love with just a touch. Its compact size and intriguing premise make it an instant conversation starter, leaving everyone curious to give it a try.
 
-Here's how it works: two people hold the metal parts for about 10-15 seconds while Dr. Love works its magic. The results are unpredictable, making for a fun and engaging ice-breaker. Explaining how it works can lead to some interesting conversations and keep potential customers intrigued while they wait.
+Here's the scoop: two people press their fingers against Dr. Love's metal parts for about 10-15 seconds, eagerly awaiting the verdict. Will sparks fly, or will it be a case of "meh"? The anticipation builds as they wait to discover if they're both head over heels or not.
 
+Those 10 seconds of suspense are surprisingly fun, making Dr. Love a decent ice-breaker. As the magic unfolds, conversations flow, and connections deepen. Plus, explaining the inner workings of Dr. Love adds an extra layer of intrigue, keeping everyone engaged.
 
-Dr. Love is definitely an attention-grabber and a great way to break the ice. It's not something you'd hand out like a regular business card, but it makes a fantastic gift for those special connections.
-
+With its charm, Dr. Love effortlessly steals the spotlight, making it a memorable gift for those special connections. It's not your typical business card giveaway – it's a delightful surprise that leaves a lasting impression.
 
 
 # How does it work?
@@ -24,7 +24,7 @@ Now, think about when you're nervous—like when you're trying to figure out if 
 
 Dr. Love measures this change in sweat using GSR. It has sensors that you place on your fingers or hand, which detect the slight increase in sweat and, therefore, the change in electrical conductivity of your skin. Dr. Love uses this GSR data to guess if someone is in love. If it detects a spike in sweating when you're near someone you love, it suggests that there might be some serious feelings involved.
 
-This is technology used in lie detectors. You know, one of the quirks of lie detectors is their tendency to falter when someone's feeling a bit jittery or excited. But hey, I'm flipping that defect on its head and turning it into a plus. Why not? Think about it: when you're face-to-face with someone you adore, those heart-fluttering moments can easily send your nerves into overdrive. And guess what? That's exactly what I'm banking on with Dr. Love! We're taking those moments of excitement and turning them into a little game of love detection. It's like taking a glitch and turning it into a feature! 
+This technology is used in lie detectors. You know, one of the quirks of lie detectors is their tendency to falter when someone's feeling a bit jittery or excited. But hey, I'm flipping that defect on its head and turning it into a plus. Why not? Think about it: when you're face-to-face with someone you adore, those heart-fluttering moments can easily send your nerves into overdrive. And guess what? That's exactly what I'm banking on with Dr. Love! We're taking those moments of excitement and turning them into a little game of love detection. It's like taking a glitch and turning it into a feature! 
 
 But here's the kicker—if you're in a seasoned relationship, you might be cool as a cucumber and not sweat at all. That's why Dr. Love thoughtfully includes the phone number of a divorce lawyer on the cover, just in case!
 
@@ -33,7 +33,7 @@ But here's the kicker—if you're in a seasoned relationship, you might be cool 
 
 Dr. Love is a fun DIY project that comes with build guides, perfect for those who enjoy a bit of hands-on tinkering. Just a heads-up: some soldering is required, and incorrect wiring could potentially cause a hazardous fire. But hey, who doesn't want a little adventure in their DIY projects?
 
-If you'd like to get your hands on a Dr. Love, why not give it a try? You can find the DIY kit at my online shop. And if you'd rather skip the assembly and get straight to the fun, you can also order a pre-assembled device. The link is at the end of this document. Happy building!
+If you'd like to get your hands on a Dr. Love, you can find the DIY kit at my online shop or you can source materials own your own. And if you'd rather skip the assembly and get straight to the fun, you can also order a pre-assembled device. The link is at the end of this document. Happy building!
 
 ## Step 1. What to prepare
 
