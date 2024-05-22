@@ -1,109 +1,199 @@
 # Dr. Love: Measures your love
 
-Dr. Love: is the creepy gadget to test if your partner is in love with you or just kind of meh. Simply place your fingers on Dr. Love, and it will reveal if neither of you, both of you, or just one of you is smitten. Thankfully, it won’t spill the beans on which one of you is the lovesick puppy.
-
-# Usecase
-
-Flashback to my high school days, my first encounter with a girl had me avoiding eye contact and fidgeting like I had ants in my pants. If only Dr. Love had existed back then! I could have saved myself the embarrassment, tested our "connection" and perhaps redirected my energy into mastering Circuit Python instead.
-
-Dr. Love is the perfect ice-unbreaker. Picture this: youre on a blind date, and your date looks like she’d rather be anywhere else. She’s leaning back, legs angled towards the nearest exit. Even your best joke, rehearsed for hours, barely gets a polite smile. Shes probably a Star Wars fan, and you're all about Lord of the Rings. Oh, the tragedy!
-
-Here comes the Dr. Love. You place it on the table as a last-ditch effort. Suddenly, shes intrigued. For the first time in hours, her hands cross the table, and she asks, "What’s this?" in a curious tone. With a suave smile, you reply, "Want to give it a try?"
-
-A little creeped out, she hesitates. "What if it says we’re in love? Do we have to get married and have kids? Share school drop-off duties every morning? Is there a way to avoid this creepy nerd but still keep Dr. Love?"
-
-Absolutely! Here’s the link to get your own Dr. Love.
+Dr. Love: is the ultimate gadget to test if your partner is in love with you or just kind of meh. Simply place your fingers on Dr. Love, and it will reveal if neither of you, both of you, or just one of you is in love. Thankfully, it won't spill the beans on which one of you is the lovesick puppy.
 
 
-# Some Techincal Details
 
-Galvanic Skin Response (GSR): This is a fancy way of saying that your skin changes its electrical properties when you sweat. When you get nervous or excited, your body sweats a tiny bit, even if you don’t notice it. This sweat changes how easily electricity can pass through your skin.
+# Usecases
 
-When people are nervous, it can make them sweat just a bit more than usual. Especially if you are in testing whether you are in love or not with someone that you care. You or the other will get nervous.  
+Dr. Love is a tiny, business card-sized device that packs a big punch. It's perfect for sparking curiosity and getting people talking. Everyone wants to try it out or at least ask, "What's that?"
 
-Dr. Love measures this change in sweat using GSR. It has sensors that are placed on your fingers or hand, which detect the slight increase in sweat and thus the change in electrical conductivity of your skin. Dr. Love uses the GSR data to guess if someone is in love. If the machine notices a spike in sweating when a person is in front of someone that you love, it suggests that the person might be in love.
+Here's how it works: two people hold the metal parts for about 10-15 seconds while Dr. Love works its magic. The results are unpredictable, making for a fun and engaging ice-breaker. Explaining how it works can lead to some interesting conversations and keep potential customers intrigued while they wait.
 
-Well... if you are in a season'd relationship, then you might not sweat. So, that is why, phone number of a divorce lawyer is on the cover as well.
+Dr. Love is definitely an attention-grabber and a great way to break the ice. It's not something you'd hand out like a regular business card, but it makes a fantastic gift for those special connections.
+
+
+
+# How does it work?
+
+Galvanic Skin Response (GSR) is a fancy term that means your skin changes its electrical properties when you sweat. When you get nervous or excited, your body sweats a tiny bit, even if you don't notice it. This sweat makes it easier for electricity to pass through your skin.
+
+Now, think about when you're nervous—like when you're trying to figure out if someone you care about loves you back. You might sweat a little more, right? That's where Dr. Love comes in. 
+
+Dr. Love measures this change in sweat using GSR. It has sensors that you place on your fingers or hand, which detect the slight increase in sweat and, therefore, the change in electrical conductivity of your skin. Dr. Love uses this GSR data to guess if someone is in love. If it detects a spike in sweating when you're near someone you love, it suggests that there might be some serious feelings involved.
+
+But here's the kicker—if you're in a seasoned relationship, you might be cool as a cucumber and not sweat at all. That's why Dr. Love thoughtfully includes the phone number of a divorce lawyer on the cover, just in case!
+
 
 # Build Guide
 
-This is a DIY project and contains build guides. Some soldering must be done. Also, some wrong wiring can cause a hazardous fire and burn down your beloved house. But I am sure y'all like to have one Dr. Love on your hand. So, why not give it a try. 
+Dr. Love is a fun DIY project that comes with build guides, perfect for those who enjoy a bit of hands-on tinkering. Just a heads-up: some soldering is required, and incorrect wiring could potentially cause a hazardous fire. But hey, who doesn't want a little adventure in their DIY projects?
+
+If you'd like to get your hands on a Dr. Love, why not give it a try? You can find the DIY kit at my online shop. And if you'd rather skip the assembly and get straight to the fun, you can also order a pre-assembled device. The link is at the end of this document. Happy building!
 
 ## Step 1. What to prepare
 
-Micro controller used here is called, "RP2040-LCD-0.96". This is Raspberry Pi Pico micro controller with 0.96 inch display attached to it. You can find the item by searching with "RP2040-LCD-0.96"
+Here's a detailed look at the components you'll need for your Dr. Love DIY project:
 
-* RP2040-LCD-0.96
+![Parts Required](./images/001.jpg)
 
-You can use typical lithium battery. That has 3.6 ~ 3.7 V nominal voltage.
-I have used LIR2032 coin cell sized lithium battery and the same sized holder in order to place inside the enclosure.
+1. **Microcontroller**:
+   - **RP2040-LCD-0.96**: This is a Raspberry Pi Pico microcontroller with a 0.96-inch display attached. You can find it by searching for "RP2040-LCD-0.96".
 
-You can find the item by searching with the keyword: 
+2. **Battery and Holder**:
+   - **Battery**: Use a typical lithium battery with a nominal voltage of 3.6 ~ 3.7V. I've used an LIR2032 coin cell-sized lithium battery for convenience.
+   - **Battery Holder**: Search for "CR2032 holder" to find the right battery holder for the LIR2032 battery.
+   - **Connector**: You'll need a JST 1.25mm male connector to connect the battery to the microcontroller.
 
-* LIR2032 - for the battery 
-* CR2032 holder - for the battery holder
-* JST 1.25mm male connector
+3. **Finger Contacts**:
+   - **Nickel Strips**: Use 8mm wide nickel strips to create the contact points for the fingers. Any thickness will work, as long as you can bend them easily.
 
-You need nickel strips to make a place for the fingers. You could search for nickel strips. Then you would find bunch of 8 mm wide strips. 
+4. **Additional Components**:
+   - **Resistors**: 2k ohm resistors (you'll need two of these).
+   - **Slide Switch**: A switch with dimensions of 20mm x 6mm.
+   - **Threaded Inserts and Screws**: M2 threaded inserts and screws (you'll need four).
+   - **Machine Screws and Nuts**: M2.5 screws and nuts for securing components.
+   - **3d prints or Enclosure**: STL for 3d printed parts are in this repository
 
-* Nickel Strips 8 mm wide. Any thickness is fine, as long as you can bend them at will
+These components are essential for building your Dr. Love device. You can find most of these items online or at your local electronics store. Happy building!
 
-Some other components
+## Step 2. Solder Nickel Plates with Wires
 
-* 2k ohm resistor x 2
-* Slide switch dimension of 20 mm x 6 mm
-* M2 threaded inserts and screws x 4
-* M2.5 machine screws and nuts
+![Parts Required](./images/002.jpg)
 
+1. **Prepare the Nickel Plates**:
+   - Cut four nickel plates, each about 3 ~ 4 cm long.
 
-## Step 2. Soler nickel plates with wires
+2. **Prepare the Wires**:
+   - Cut four pieces of wire, 10 cm.
+   - Peel off 2 cm of insulation from each end of the wires.
 
-Cut them nicely, around 3 cm long. Four of them are required. Peel off 2 cm of the wire. Wrap around the nick plate and put some solering paste, then solder it on.
+3. **Wrap and Solder**:
+   - Wrap one end of each wire around one end of a nickel plate.
+   - Apply some soldering paste to the connection point.
+   - Use a soldering iron to solder the wire to the nickel plate securely.
 
+### Tips
 
-## Step 3. Solder the battery contact and the slide switch
-
-Cut the JST connector wires to fit in the enclosure. 
-
-* JST connector GND to Battery holder GND
-* JST connector V+ to Slide switch
-* Battery holder V+ to Slide switch
-
-This setup is not the best because the rp2040 board needs to be powered on while the charge is on going. Since the battery charge controller is on the board. So, I don't see other options. If anyone know any better setup. Please let me know.
-
-
-## Step 4. Solder to the rp2040 board
-
-It is going to one resister and some wiring to be done. Make sure to solder first then check with the image below, so that when you mess up. You will have even more mess to clean up.
-
-* ADC pin is pulled down to GND via 2k resistor. 
-* ADC pin is connected to one of nickel contact. 
-* 3.3 V is connected to the other nickel contact.
+- Make sure the soldering iron is hot enough to melt the solder quickly but be careful not to overheat and damage the components.
+- Ensure a solid connection by applying enough solder to cover the wire and nickel plate junction.
+- Allow the solder to cool and solidify before moving on to the next step.
+- Apply soldering paste before soldering, it make it much easier for the soler to adhere.
 
 
-## Step 5. Assemble
 
-* Insert the threaded inserts on the bottom enclosure. 
-* Place the sliding switch and hold it with the M2.5 machine screw and nuts
-* Glue the battery holder 
-* Use some double sided adhesives to place the rp2040 board in place
-* Install the nickel plates on the corresponding location
-* Close the lid and lock it with the m2 screws
+## Step 3: Solder the Battery Contact and the Slide Switch
+
+![Parts Required](./images/003.jpg)
+
+1. **Cut the Wires**:
+   - Trim the wires from the JST connector to the appropriate length to fit neatly inside the enclosure.
+
+2. **Solder Connections**:
+   - **JST Connector GND to Battery Holder GND**: 
+     - Solder the ground (GND) wire from the JST connector to the ground terminal on the battery holder.
+   - **JST Connector V+ to Slide Switch**:
+     - Solder the positive (V+) wire from the JST connector to one terminal of the slide switch.
+   - **Battery Holder V+ to Slide Switch**:
+     - Solder the positive (V+) terminal of the battery holder to the other terminal of the slide switch.
+
+### Note:
+This wiring setup powers the RP2040-LCD-0.96 board while charging because the charge controller is integrated into the board. This isn't the most efficient setup, but it's necessary due to the charging configuration. If anyone has a better wiring solution, suggestions are welcome!
+
+### Tips:
+- Double-check your connections to ensure there are no shorts, which could damage the components or cause a fire hazard.
+- Use heat shrink tubing or electrical tape to cover exposed solder joints for added safety.
+
+
+
+## Step 4: Solder to the RP2040 Board
+
+![Parts Required](./images/004.jpg)
+
+In this step, you'll solder a resistor and some wiring to the RP2040 board. Follow these instructions carefully and refer to the image to ensure proper connections.
+
+1. **Solder the Resistors**:
+   - **GPIO 27**:
+     - Solder one end of a 2k ohm resistor to GPIO 27.
+     - Solder the other end of the resistor to GND.
+   - **GPIO 26**:
+     - Solder one end of another 2k ohm resistor to GPIO 26.
+     - Solder the other end of the resistor to GND.
+
+2. **Connect the Nickel Plates**:
+   - **GPIO 27**:
+     - Solder a wire from GPIO 27 to one of the nickel plates.
+   - **GPIO 26**:
+     - Solder a wire from GPIO 26 to another nickel plate.
+
+3. **Connect 3.3V to the Nickel Plates**:
+   - Cut two wires from the 3.3V pin on the RP2040 board.
+   - Solder one wire from the 3.3V pin to each of the nickel plates.
+
+### Tips:
+- **Check Your Work**: After soldering each connection, double-check against the diagram to ensure accuracy. Incorrect connections can lead to functionality issues or damage.
+- **Test the Connections**: Use a multimeter to verify continuity and proper connection of each solder joint.
+
+
+## Step 5: Assemble
+
+![Parts Required](./images/005.jpg)
+
+Follow these steps to assemble your Dr. Love device:
+
+1. **Insert the Threaded Inserts**:
+   - Heat up the threaded inserts with a soldering iron.
+   - Push them into the four corners of the bottom enclosure. This will provide secure threading for the screws.
+
+2. **Install the Sliding Switch**:
+   - Place the sliding switch in its designated slot.
+   - Secure it using M2.5 machine screws and nuts.
+
+3. **Attach the Battery Holder**:
+   - Use double-sided tape or glue to secure the battery holder in place inside the enclosure.
+
+4. **Position the RP2040 Board**:
+   - Use double-sided adhesive to stick the RP2040 board to its designated position inside the enclosure.
+
+5. **Install the Nickel Plates**:
+   - Place the nickel plates in their corresponding locations within the enclosure, ensuring they are properly connected to the wires.
+
+6. **Close the Enclosure**:
+   - Once all components are in place, close the lid of the enclosure.
+   - Secure the lid using M2 screws, threading them into the previously installed threaded inserts.
+
+
+## Step 6: Installing the Firmware
+
+### 1. Install CircuitPython
+
+- Connect the RP2040 board to your PC via USB while pressing down the boot button.
+- The board will appear as a storage device on your computer.
+- Copy the CircuitPython boot loader file into the storage.
+- Once the file is copied, the RP2040 board will reboot, completing the CircuitPython installation.
+
+### 2. Install Firmware
+
+- Copy all the files from the "src" folder of this repository to the RP2040 board using your PC connected via USB.
+- Once the files are copied, the RP2040 will boot into the application that functions as Dr. Love.
+
+By following these steps, you'll successfully install the necessary firmware and files onto your RP2040 board, allowing it to function as the Dr. Love device.
 
 
 # Conclusion
 
-This project was initiated by the business card challenge on Hackaday. Hackaday is really an intimidating place where things posted there are mostly green and yellow. People there speaks in a languages of some series alphabets combined with numbers mostly.
+This project stemmed from the Hackaday business card challenge, sparking numerous brainstorming sessions with my wife to create something captivating and memorable, akin to the essence of a business card.
 
-I have always find interests and inspirations from hackaday posts. It feels like people take things seriously to a level that is unimaginable.  
+We envisioned the business card as a platform for exchanging impressions and fostering connections between two people. We wanted to offer a device that could reveal something about each person involved, transcending the conventional business card functionalities.
 
-https://hackaday.io/contest/195949-2024-business-card-contest
+After exploring various ideas, we settled on the concept of a "love" detector, inspired by the notion of two individuals engaging in mutual interaction. Unlike a traditional lie detector, which can be tense and one-sided, we aimed to inject light-heartedness into the interaction by detecting "love" instead.
 
-This place is probably the least appropriate place to put a relationship related stuff. But I am going to try anyways. 
+The idea struck a chord with our friends during testing, proving to be an effective attention-grabber and conversation starter. While Dr. Love may not be suitable for all business contexts, it excels in scenarios where a playful approach is welcomed and engagement is key.
 
+Creating Dr. Love brought immense joy, and witnessing the enjoyment it brought to others was truly rewarding. It also shed light on the surprising reality that many married couples may not be as in love as one might assume, prompting us to include a real divorce lawyer's contact as a tongue-in-cheek addition.
 
-# Online Shop 
+# Online Shop
 
-Not sure if this item would ever sell. But I have put it in my shop anyways. Because it looks cute.
+You can purchase Dr. Love DIY kits, containing 3D prints, components, and materials for assembly, from the following link. Assembled units are also available for those who prefer a ready-to-use device.
 
-https://www.tindie.com/stores/unkyulee/
+[Dr. Love Online Shop](https://www.tindie.com/stores/unkyulee/)
