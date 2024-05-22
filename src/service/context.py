@@ -11,7 +11,8 @@ _config = {
         'diff': 0
     },
     'DISPLAY': {
-        'screen': 1
+        'screen': 1,
+        'brightness': 0.3
     },
     'LOVER': {
         "A": {

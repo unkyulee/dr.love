@@ -2,16 +2,12 @@ import board
 import time
 import busio
 import displayio
-import terminalio
-from adafruit_display_text import label
-from adafruit_st7735r import ST7735R
-
 import gc
 import gifio
-
+#
+from adafruit_st7735r import ST7735R
 #
 import service.context as context 
-
 #
 class Display:
     #
@@ -45,6 +41,8 @@ class Display:
             invert=True,
             backlight_pin=self.bl)
         
+        # set default brightness
+        self.display.brightness = 0.3       
     
         #
         self.actions = {
@@ -60,33 +58,28 @@ class Display:
         self.screen = context.get()["DISPLAY"]["screen"]
         self.stop = False
         self.odg = None
-
-    #
-    #
+        self.file = ''
     #
     def loop(self): 
         # verify the status
-        self.verify()
-      
+        self.verify()      
         # perform actions
-        self.actions[context.get()["DISPLAY"]["screen"]]()
-               
-        pass
-    
+        self.actions[context.get()["DISPLAY"]["screen"]]()  
+    #
     def verify(self):
         # detect if the screen has changed
         curr_screen = context.get()["DISPLAY"]["screen"]
-        
+        # brightness
+        self.display.brightness = context.get()["DISPLAY"]["brightness"]        
         # stop gif
         if curr_screen != self.screen:
             self.stop = True
             self.screen = curr_screen
-    
-    
+    #    
     def gif(self, path):
         
         # Check Stop Flag
-        if self.stop: 
+        if self.stop and path != self.file: 
             # Clean up memory
             self.odg.deinit()
             self.odg = None
@@ -94,6 +87,7 @@ class Display:
             
             # Unflag
             self.stop = False
+            self.file = path
 
         # Load GIF
         if self.odg == None:
@@ -118,24 +112,21 @@ class Display:
         # Play the GIF next frame
         if time.monotonic() - self.gif_next > 0: 
             self.gif_next = time.monotonic() + self.odg.next_frame()
-        
-        
-        
-        
-    def welcome(self):
+    #        
+    def welcome(self):        
         self.gif("/gif/welcome.gif")           
-    
+    #
     def calibration(self):
         self.gif("/gif/calibration.gif")
-    
+    #
     def measuring(self):
-        self.gif("/gif/measuring.gif")
-    
+        self.gif("/gif/calibration.gif")
+    #
     def love(self):
         self.gif("/gif/love.gif")
-    
+    #
     def one(self):
         self.gif("/gif/one.gif")
-    
+    #
     def sorry(self):
         self.gif("/gif/sorry.gif")

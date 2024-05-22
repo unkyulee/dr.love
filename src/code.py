@@ -5,6 +5,7 @@ import time
 from service.sensor import Sensor
 from service.display import Display
 from service.lover import Lover
+from service.sleep import Sleep
 
 # Reading Sensors
 async def sensor_loop():
@@ -73,15 +74,39 @@ async def lover_loop():
         elapsed_time = time.monotonic() - start_time
         sleep_time = max(0, interval - elapsed_time)
         await asyncio.sleep(sleep_time)
+
+
+# Sleep Timer Loop
+async def sleep_loop():
+    # loop interval
+    interval = 1
+   
+    # 
+    sleep = Sleep()
+    sleep.setup()
+    
+    # Task Loop
+    while True:
+        # Loop Measure Interval - Begin
+        start_time = time.monotonic()
         
+        # Code
+        sleep.loop()
+        
+        # Loop Measure Interval - End
+        elapsed_time = time.monotonic() - start_time
+        sleep_time = max(0, interval - elapsed_time)
+        await asyncio.sleep(sleep_time)
+       
 
 # Main function to run tasks concurrently
 async def main():
     task1 = asyncio.create_task(sensor_loop())
     task2 = asyncio.create_task(display_loop())
     task3 = asyncio.create_task(lover_loop())
+    task4 = asyncio.create_task(sleep_loop())
 
-    await asyncio.gather(task1, task2, task3)
+    await asyncio.gather(task1, task2, task3, task4)
 
 # Run the main function
 asyncio.run(main())
