@@ -1,8 +1,9 @@
 # Dr. Love: a Game of Love Detection 
 
-Dr. Love: is the ultimate gadget to test if your partner is in love with you or just kind of meh. Simply place your fingers on Dr. Love, and it will reveal if neither of you, both of you, or just one of you is in love. Thankfully, it won't spill the beans on which one of you is the lovesick puppy.
+Dr. Love: is a business-card sized gadget to test if your partner is in love with you or just kind of meh. Simply place your fingers on Dr. Love, and it will reveal if neither of you, both of you, or just one of you is in love. Thankfully, it won't spill the beans on which one of you is the lovesick puppy.
 
-![Love](./images/007.jpg)
+
+[![YouTube](./images/thumbnail.jpg))](https://youtu.be/hX9yII2u_kw)
 
 
 # Usecases
@@ -59,7 +60,7 @@ Here's a detailed look at the components you'll need for your Dr. Love DIY proje
    - **Slide Switch**: A switch with dimensions of 20mm x 6mm.
    - **Threaded Inserts and Screws**: M2 threaded inserts and screws (you'll need four).
    - **Machine Screws and Nuts**: M2.5 screws and nuts for securing components.
-   - **3d prints or Enclosure**: STL for 3d printed parts are in this repository
+   - **3d printed enclosure**: STL for 3d printed parts are in this repository
 
 
 ## Step 2. Solder Nickel Plates with Wires
@@ -196,6 +197,9 @@ After exploring various ideas, we settled on the concept of a "love" detector, i
 The idea struck a chord with our friends during testing, proving to be an effective attention-grabber and conversation starter. While Dr. Love may not be suitable for all business contexts, it excels in scenarios where a playful approach is welcomed and engagement is key.
 
 Creating Dr. Love brought immense joy, and witnessing the enjoyment it brought to others was truly rewarding. It also shed light on the surprising reality that many married couples may not be as in love as one might assume, prompting us to include a real divorce lawyer's contact as a tongue-in-cheek addition.
+
+[Hackaday Project Link](https://hackaday.io/project/196222-dr-love-a-game-of-love-detection)
+
 
 # Online Shop
 
