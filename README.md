@@ -202,6 +202,21 @@ Creating Dr. Love brought immense joy, and witnessing the enjoyment it brought t
 
 [Hackaday Project Link](https://hackaday.io/project/196222-dr-love-a-game-of-love-detection)
 
+# Press
+
+## Hackaday: 2024 BUSINESS CARD CHALLENGE: WHO DO YOU LOVE?
+
+https://hackaday.com/2024/06/10/2024-business-card-challenge-who-do-you-love/
+
+## Hackster.io: Un Kyu Lee's Dr. Love puts a classic "love tester" GSR machine in your pocket.
+
+https://www.hackster.io/news/un-kyu-lee-s-dr-love-puts-a-classic-love-tester-gsr-machine-in-your-pocket-b398508744e2
+
+https://x.com/Hacksterio/status/1795471628278644764?t=RlmkFYk4yRookzmczd59Lg&s=08
+
+## XDA: Build your very own Raspberry Pi-powered pocket-sized "love tester" machine
+
+https://www.xda-developers.com/raspberry-pi-dr-love/
 
 # Online Shop
 
